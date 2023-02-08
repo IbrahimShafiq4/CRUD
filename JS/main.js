@@ -32,6 +32,7 @@ function addElement() {
         localStorage.setItem( 'allProducts', JSON.stringify(allProducts) );
         displayAllData();
         clearForm();
+        addBtn.innerHTML = 'Add';
     }
 }
 
